@@ -5,7 +5,7 @@ const video = $('#video');
 const audio = $('#audio');
 
 button.addEventListener('click', () => {
-  video.classList.remove('d-none');
+  video.style.display = 'block'
   audio.currentTime = 3.8;
   audio.play();
 });
